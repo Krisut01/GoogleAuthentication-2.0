@@ -12,6 +12,8 @@ return [
     | other UI elements where an application name needs to be displayed.
     |
     */
+    'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+
 
     'name' => env('APP_NAME', 'Laravel'),
 
